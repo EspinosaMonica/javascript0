@@ -44,3 +44,6 @@ console.log(typeof({a: 1}));      // object (un objeto simple)
 console.log(typeof(function() {})); // function (aunque las funciones son objetos, tienen un tipo distinto)
 console.log(typeof(new Date()));  // object (la instancia de un objeto Date es un objeto)
 console.log(typeof(/abc/));       // object (una expresión regular es un tipo especial de objeto)
+
+
+
