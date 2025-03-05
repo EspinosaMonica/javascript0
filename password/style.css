@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.generator {
+    background: #1e1e1e;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 350px;
+}
+
+.password-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.password-container h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00bcd4;
+    background: #252525;
+    padding: 10px;
+    border-radius: 8px;
+    word-break: break-all;
+}
+
+/* Mensaje de seguridad */
+#strengthMessage {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.range-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem 0;
+}
+
+input[type="range"] {
+    width: 100%;
+    accent-color: #00bcd4;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    margin: 1rem 0;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.options input {
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #00bcd4;
+}
+
+button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #008ba3;
+}
+
+#copyBtn {
+    display: none;
+    background-color: #555;
+    margin-top: 10px;
+}
+
+#copyBtn:hover {
+    background-color: #777;
+}
+
+
+
