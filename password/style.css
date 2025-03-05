@@ -39,13 +39,6 @@ body {
     word-break: break-all;
 }
 
-/* Mensaje de seguridad */
-#strengthMessage {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-top: 5px;
-}
-
 .range-container {
     display: flex;
     align-items: center;
@@ -98,8 +91,9 @@ button:hover {
     background-color: #008ba3;
 }
 
+/* Botón de copiar */
 #copyBtn {
-    display: none;
+    display: none; /* Se oculta hasta que se genere una contraseña */
     background-color: #555;
     margin-top: 10px;
 }
